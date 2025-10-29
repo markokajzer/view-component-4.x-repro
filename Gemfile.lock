@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/platoyo/view_component.git
+  revision: 8f7c9dfbc9efdb66f3b4472420f8b314bdccf27d
+  ref: capture_partial_block_in_the_components_context
+  specs:
+    view_component (4.1.0)
+      actionview (>= 7.1.0, < 8.2)
+      activesupport (>= 7.1.0, < 8.2)
+      concurrent-ruby (~> 1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -343,9 +353,6 @@ GEM
     unicode-emoji (4.1.0)
     uri (1.0.3)
     useragent (0.16.11)
-    view_component (4.0.2)
-      activesupport (>= 7.1.0, < 8.1)
-      concurrent-ruby (~> 1)
     web-console (4.2.1)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -393,7 +400,7 @@ DEPENDENCIES
   thruster
   turbo-rails
   tzinfo-data
-  view_component (~> 4.0)
+  view_component!
   web-console
 
 BUNDLED WITH
